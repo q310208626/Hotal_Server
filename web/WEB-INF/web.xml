@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>RegistServelet</servlet-name>
+        <servlet-class>com.lsj.servlet.RegistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistServelet</servlet-name>
+        <url-pattern>/Registservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.lsj.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Loginservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReserveServlet</servlet-name>
+        <servlet-class>com.lsj.servlet.ReserveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReserveServlet</servlet-name>
+        <url-pattern>/Reserveservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>com.lsj.servlet.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/Orderserver</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderDetailServlet</servlet-name>
+        <servlet-class>com.lsj.servlet.OrderDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderDetailServlet</servlet-name>
+        <url-pattern>/OrderDetailservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UnsubscribeServlet</servlet-name>
+        <servlet-class>com.lsj.servlet.UnsubscribeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UnsubscribeServlet</servlet-name>
+        <url-pattern>/Unsubscribeservlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
